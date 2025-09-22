@@ -1,2 +1,2 @@
 # dspracticum2025-tismaci
-Repository for the group "Tismaci" for the course M7DataSP
+Repository of group "Tismaci" for the course M7DataSP.
