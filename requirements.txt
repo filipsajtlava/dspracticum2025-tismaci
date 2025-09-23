@@ -1,0 +1,4 @@
+ddgs
+IPython
+requests
+tqdm
