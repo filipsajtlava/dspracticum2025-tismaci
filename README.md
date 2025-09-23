@@ -10,13 +10,23 @@ Cim sa vsetky libky ktore nemate nainstaluju, a tie ktore mate sa nezmenia. Takz
 ### 2.
 Bolo by dobre si stiahnut git a naucit s nim pracovat ([link na stiahnute](https://git-scm.com/downloads/win)).
 Treba vediet len uplne zakladne veci:
+```bash
 - git clone https://github.com/filipsajtlava/dspracticum2025-tismaci
+```
 Git vam v podstate vytvori zlozku ktora je presne taka ista ako na Githube (v podstate ju stiahne do directory v ktorej sa prave nachadzate). Robime len na zaciatku, ked prvykrat stahujeme.
+```bash
 - git add .
+```
 Po tom ako ste vykonali zmeny tymto sposobom ich urcite na commit a upload na github.
+```bash
 - git commit -m "popis zmien"
+```
 Tymto commandom commitnete svoje zmeny ktore ste oznacili pomocou add a pridate k tomu poznamku "nejaky text", zvycajne napr. zmeny ktore ste vykonali - "vytvoril som datovy subor obrazkov"
+```bash
 - git push
+```
 Tieto zmeny nasledne pushnete na internet do githubu. Pri prvom pouziti bude potrebovat zadat vas ucet, resp. repositar do ktoreho to vlastne pushujete. *POZOR! KED NIECO ZMAZEM A TIETO ZMENY BUDEM UKLADAT A NAKONIEC PUSHNEM, ZMAZEM TO PRE KAZDEHO.*
+```bash
 - git pull
+```
 Tymto si stiahnem najnovsiu verziu repozitara na Githube, takze budeme mat aktualne subory aj s upravami ostatnych.
