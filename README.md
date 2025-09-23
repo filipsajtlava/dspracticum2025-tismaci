@@ -4,7 +4,7 @@ Repository of group "Tismaci" for the course M7DataSP.
 ### 1. 
 Ked poprvykrat pouzijete nejaku novu libku, prosim zapiste ju do *requirements.txt*. Vdaka tomu je mozne zadat do prikazoveho riadku nasledovne:
 - pip install -r requirements.txt
-Cim sa vsetky libky ktore nemate nainstaluju, a tie ktore mate sa nezmenia. Takze vlastne nemusite nic riesit.
+Cim sa vsetky libky ktore nemate nainstaluju, a tie ktore mate sa nezmenia. Takze vlastne nemusite nic riesit. Dobre by bolo vytvorit si tzv. virtual-environment ktory sluzi na to, aby sa tie libky medzi sebou nebili s tymi, ktore uz mate nainstalovane, toto je trochu komplikovanejsie, takze ak neviete, tak zatial na to kaslite, alebo CHATGPT.
 
 
 ### 2.
