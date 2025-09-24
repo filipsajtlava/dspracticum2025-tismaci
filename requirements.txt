@@ -2,3 +2,6 @@ ddgs
 IPython
 requests
 tqdm
+ipykernel
+ipywidgets
+torchvision
