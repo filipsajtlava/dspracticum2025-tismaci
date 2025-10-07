@@ -1,7 +1,6 @@
 from fastai.vision.all import *  # Importing the necessary fastai modules
 import gradio as gr  # Importing Gradio for creating the web interface
 import timm  # Importing timm for model management
-import PILImage
 
 # Load the pre-trained model
 learn = load_learner('model.pkl')
@@ -23,4 +22,4 @@ examples = ['ex1_calathea.jpg', 'ex2_monstera.jpg']  # Example images for demons
 
 # Create and launch the Gradio interface
 intf = gr.Interface(fn=classify_image, inputs=image, outputs=label, examples=examples)
-intf.launch()
+intf.launch(share=True)
